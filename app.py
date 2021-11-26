@@ -3,7 +3,9 @@ import yfinance as yf
 import pandas as pd
 
 
-tickerSymbol = 'AMZN'
-tickerSymbol = 'AAPL'
-tickerSymbol = 'GME'
+ticker1 = 'AMZN'
+ticker2 = 'AAPL'
+ticker3 = 'GME'
 
+tickerData = yf.Ticker(ticker1)
+tickerData = yf.Ticker(ticker1)
